@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ver Mensajes</title>
+</head>
+<body>
+    <h1>Mensajes</h1>
+    <ul>
+        {% for mensaje in mensajes %}
+            <li>{{ mensaje.contenido }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

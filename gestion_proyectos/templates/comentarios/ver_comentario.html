@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ver Comentarios</title>
+</head>
+<body>
+    <h1>Comentarios</h1>
+    <ul>
+        {% for comentario in comentarios %}
+            <li>{{ comentario.contenido }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

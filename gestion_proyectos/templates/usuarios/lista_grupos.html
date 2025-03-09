@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Grupos</title>
+</head>
+<body>
+    <h1>Lista de Grupos</h1>
+    <ul>
+        {% for grupo in grupos %}
+            <li>{{ grupo.name }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
